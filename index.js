@@ -26,3 +26,30 @@ console.log(incremento);
 
 var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
 console.log(expressao);
+
+var brasil = 207;
+var china = 1340;
+
+if (china > brasil){
+console.log('Verdade');
+
+} else {
+    console.log('Falso');
+}
+
+if (("Gato" === "gato") && (5 > 2)) {
+    console.log('Verdadeiro');
+} else {
+    console.log('Falso');
+}
+
+if (("Gato" === "gato") || (5 > 2)) {
+    console.log('Gato' && 'Cão');
+} else {
+    console.log('Falso');
+}
+
+function verifica(valor) {
+    return valor;
+
+}
